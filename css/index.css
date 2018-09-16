@@ -1,0 +1,85 @@
+ul {
+  list-style: none;
+}
+body,
+.mui-content {
+  background-color: #fff;
+}
+.banner {
+  padding: 10px;
+  overflow: hidden;
+}
+.banner a {
+  width: 33.33%;
+  display: block;
+  float: left;
+}
+.banner a img {
+  width: 100%;
+}
+.brand {
+  overflow: hidden;
+}
+.brand .title {
+  width: 100%;
+}
+.brand ul {
+  padding: 0 10px;
+  overflow: hidden;
+}
+.brand ul li {
+  width: 25%;
+  float: left;
+}
+.brand a img {
+  width: 100%;
+}
+.live {
+  overflow: hidden;
+}
+.live .title1 {
+  width: 100%;
+}
+.live > ul {
+  padding: 0 10px;
+}
+.live > ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.live > ul li a {
+  display: block;
+  padding: 0 5px;
+  box-shadow: 0 0 5px #ccc;
+  overflow: hidden;
+}
+.live > ul li img {
+  width: 100%;
+}
+.live .money {
+  text-align: center;
+}
+.live .money span:first-of-type {
+  color: #f30;
+  margin-right: 2px;
+}
+.live .money span:last-of-type {
+  text-decoration: line-through;
+}
+.live .adidas {
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  color: #8f8f94;
+  overflow: hidden;
+}
+.live .now {
+  background: #006699;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  margin-bottom: 10px;
+}
