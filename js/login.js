@@ -25,12 +25,20 @@ $(function () {
                 $('#login-btn').html('正在登录...')
             },
             success: function (res) {
-                $('#login-btn').html('登录')
 
-                mui.toast('恭喜!登录成功')
-                setTimeout(function(){
-                    location.href = 'user.html';
-                },2000)
+                if(!res.success){
+                    mui.toast('用户名或密码错误');
+                    $('#login-btn').html('登录')
+                    return;
+                }
+                else{
+                    $('#login-btn').html('登录')
+
+                    mui.toast('恭喜!登录成功')
+                    setTimeout(function(){
+                        location.href = 'user.html';
+                    },2000)
+                }
             }
         })
     })
